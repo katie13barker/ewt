@@ -1,0 +1,94 @@
+html {
+	box-sizing: border-box;
+}
+body {
+
+	font-size: 16px;
+	line-height: 1.3;
+	font-family: helvetica, sans-serif;
+}
+a {
+	color: #58c164;
+
+}
+a.hover{
+	color: #469850;
+}
+a:after {}
+.page-header {
+
+	background: #000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.company-name{
+	font-size: 2rem;
+
+}
+
+.company-slogan{
+	font-size: 1.4rem;
+}
+
+.page-content .container {
+	padding: 20px 0;
+}
+.section-header{
+	font-size: 1.2rem;
+	text-align: center;
+}
+.feature {
+padding: ;
+text-align: center;
+}
+.feature-poster{
+max-width: 100%;
+}
+
+.feature-poster img {
+
+}
+.feature-caption {
+	font-weight: bold;
+	font-style: 
+}
+
+/*style for tablet and above*/
+
+@media (min-width: 760px;) {
+	.company-name {
+		font-size: 3rem;
+
+	}
+.page-content .container {
+	width: 760px;
+	margin: 0 auto;
+	background: #fff;
+	}
+}
+
+/* styles for desktop*/
+@media (min-width: 1000px;) {
+	.page-content{
+		background: blue;
+	}
+	.page-content.container{
+		width: 1000px;
+
+	}
+	.feature{
+		float: left;
+		width: 50%;
+	}
+	.feature:nth-child(2n+1){
+		clear: left;
+	}
+.feature-list:after {
+	clear: both;
+	content: '';
+	display: table; /* IE 8 compatability */
+}
+
+}

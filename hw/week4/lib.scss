@@ -1,0 +1,27 @@
+/*Variables*/
+
+$cardHoverText: #12A3E6;
+$cardText: #FF7878;
+$cardShadow: #6B435A;
+$mobGradientTop: #777;
+$mobGradientBtm: #444;
+$tabGradientTop: #6bc8f3;
+$tabGradientBtm: #0e81b7;
+$deskGradientTop: #a56f8e;
+$deskGradientBtm: #4c2f40;
+$tabletBreakpoint: 760px;
+$desktopBreakpoint: 1000px;
+
+
+/*mixins*/
+
+@mixin gradient($topColor, $btmColor) {
+    background: -webkit-linear-gradient(top, $topColor 0%, $btmColor 100%);
+    background: linear-gradient(to bottom, $topColor 0%, $btmColor 100%);
+}
+
+@mixin rotate($degrees) {
+    -ms-transform: rotate($degrees);
+    -webkit-transform: rotate($degrees);
+    transform: rotate($degrees);
+}

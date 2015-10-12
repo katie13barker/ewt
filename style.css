@@ -1,0 +1,15 @@
+/* 
+mobile-first style here
+*/
+
+
+/*style for tablet and above*/
+
+@media (min-width: 760px;) {
+
+}
+
+/* styles for desktop*/
+@media (min-width: 1000px;) {
+
+}

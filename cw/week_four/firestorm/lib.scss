@@ -1,0 +1,12 @@
+$breakTablet: 760px; //variable starts with $
+$breakDesktop: 1000px;
+
+//mixins
+@mixin transition(){
+    transition: all 0.2s ease;
+} //see line 22 for example.
+
+@mixin float($float, $width){
+    float: $float;
+    width: $width;
+}
